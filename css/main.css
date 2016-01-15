@@ -24,37 +24,47 @@ body {
 .poly2, {
   background-image: transparent;
   box-shadow: none;
-  color: red;
+  color: green;
   border-radius: none;
 
 }
 
 .poly2, .panel {
-  background-color: red;
+  background-color: yellow;
   min-height: 600px;
   max-width: 400px;
-  border: red;
+  border: none;
 }
 
 .panel-heading {
   border: transparent;
 }
-
-a:hover {
+h4{
+  text-decoration: none;
+}
+h4 > a:hover {
   text-decoration: none;
 
 }
 
-.poly2, .panel-default, .panel{
+.poly2, .panel-default, .panel {
   -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
   clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
 }
 
 .panel-heading, .panel-title, .panel-default, #headingOne{
-  background-image: none;
+  /*background-image: none;*/ this is the border of the heading
   border-radius: 1px grey lime;
   display: block;
-  background-color: red;
+  background-color: lime;
+}
+
+.panel-body {
+  background-color: yellow;
+  min-height: 700px;
+  max-width: 400px;
+  border: transparent;
+  margin-top: 15px;
 }
 
 
