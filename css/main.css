@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+
+html {
+/*position: relative;*/
+
+}
+
+body {
+  /*background: url(../img/batkid.jpg) no-repeat center center fixed;
+  background-position: 0% 75%;
+  margin-top: 15px;*/
+  /*position: relative;*/
+  /*background-color: #fbe440;*/
+  background-color: black;
+}
+
+
+
+
+
+
+.poly2, {
+  background-image: transparent;
+  box-shadow: none;
+  color: red;
+  border-radius: none;
+
+}
+
+.poly2, .panel {
+  background-color: red;
+  min-height: 600px;
+  max-width: 400px;
+  border: red;
+}
+
+.panel-heading {
+  border: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+
+}
+
+.poly2, .panel-default, .panel{
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+}
+
+.panel-heading, .panel-title, .panel-default, #headingOne{
+  background-image: none;
+  border-radius: 1px grey lime;
+  display: block;
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/****************
+The below css is pretty close to what were looking for
+****************/
+
+/*.poly2, {
+  background-image: transparent;
+  box-shadow: none;
+  color: red;
+  border-radius: none;
+
+}
+
+.poly2, .panel {
+  background-color: red;
+  min-height: 600px;
+  max-width: 400px;
+}
+
+
+.poly2, .panel {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+}*/
