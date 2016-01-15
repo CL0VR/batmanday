@@ -26,12 +26,18 @@ body {
   box-shadow: none;
   color: green;
   border-radius: none;
-
 }
 
-.poly2, .panel {
-  background-color: yellow;
+.poly2 {
+  background-color: red;
   min-height: 600px;
+  max-width: 400px;
+  border: none;
+}
+
+.panel { /**** BORDER OF PANEL ****/
+  background-color: yellow;
+  min-height: 400px;
   max-width: 400px;
   border: none;
 }
@@ -42,29 +48,70 @@ body {
 h4{
   text-decoration: none;
 }
+
 h4 > a:hover {
   text-decoration: none;
+}
+
+a {
 
 }
 
-.poly2, .panel-default, .panel {
+.poly2 {
   -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
   clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
 }
 
-.panel-heading, .panel-title, .panel-default, #headingOne{
-  /*background-image: none;*/ this is the border of the heading
-  border-radius: 1px grey lime;
+.panel-default {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+}
+
+.panel {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+}
+
+.panel-heading { /**** #HEADINGONE ****/
+  background-image: none;
+  /*border-radius: 1px grey lime;*/
   display: block;
   background-color: lime;
 }
 
-.panel-body {
+.panel-title { /**** HEADER TITLE ****/
+  background-image: none;
+  border: solid lime;
+  display: block;
+  background-color: purple;
+  color: white;
+}
+
+.panel-default { /**** SHAPE BACKGROUND COLOR 1 ****/
+  background-image: none;
+  /*border-radius: 1px grey lime;*/
+  display: block;
+  background-color: blue;
+}
+
+#headingOne { /**** HEADER BORDER ****/
+  background-image: none;
+  border: 2px solid red;
+  display: block;
+  background: none;
+  position: absolute;
+  top: 157px;
+  left: 50px;
+}
+
+.panel-body { /****** OVERLAY DROPDOWN BODY ******/
   background-color: yellow;
   min-height: 700px;
   max-width: 400px;
   border: transparent;
-  margin-top: 15px;
+  padding-top: 15px;
+  position: absolute;
+  top: 200px;
 }
 
 
