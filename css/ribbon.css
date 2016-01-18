@@ -1,0 +1,97 @@
+/****************
+The below css is pretty close to what were looking for
+****************/
+
+
+
+
+
+
+.poly2 {
+  background-color: yellow;
+  min-height: 600px;
+  width: 300px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
+
+.panel { /**** BORDER OF PANEL THAT DROPS ****/
+  background-color: blue;
+  min-height: 400px;
+  max-width: 400px;
+  border: none;
+}
+
+.panel-heading {
+  border: transparent;
+}
+h4{
+  text-decoration: none;
+}
+
+h4 > a:hover {
+  text-decoration: none;
+}
+
+a {
+  font-size: 2.5em;
+}
+
+.poly2 {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+}
+
+.panel-default {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+}
+
+.panel {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+}
+
+.panel-heading { /**** #HEADINGONE ****/
+  background-image: none;
+  /*border-radius: 1px grey lime;*/
+  display: block;
+  background-color: lime;
+}
+
+.panel-title { /**** HEADER TITLE ****/
+  background-image: none;
+  border: solid lime;
+  display: block;
+  background-color: purple;
+  color: white;
+}
+
+.panel-default { /**** SHAPE BACKGROUND COLOR 1 ****/
+  background-image: none;
+  /*border-radius: 1px grey lime;*/
+  display: block;
+  background-color: red;
+}
+
+#headingOne { /**** HEADER BORDER ****/
+  background-image: none;
+  border: 2px solid red;
+  display: block;
+  background: none;
+  position: absolute;
+  top: 157px;
+  left: 50px;
+}
+
+.panel-body { /****** OVERLAY DROPDOWN BODY ******/
+  background-color: yellow;
+  min-height: 700px;
+  max-width: 400px;
+  border: transparent;
+  padding-top: 15px;
+  position: absolute;
+  top: 200px;
+}

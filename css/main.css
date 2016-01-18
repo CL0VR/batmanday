@@ -2,148 +2,38 @@
   margin: 0;
 }
 
-html {
-/*position: relative;*/
 
-}
-
-body {
-  /*background: url(../img/batkid.jpg) no-repeat center center fixed;
+.batman {
+  background: url(../img/batkid.jpg) no-repeat center center fixed;
   background-position: 0% 75%;
-  margin-top: 15px;*/
-  /*position: relative;*/
-  /*background-color: #fbe440;*/
-  background-color: black;
+  background-color: #fbe440;
+  background-size: contain;
 }
 
-
-
-
-
-
-.poly2, {
-  background-image: transparent;
-  box-shadow: none;
-  color: green;
-  border-radius: none;
-}
-
-.poly2 {
-  background-color: red;
-  min-height: 600px;
-  max-width: 400px;
-  border: none;
-}
-
-.panel { /**** BORDER OF PANEL ****/
-  background-color: yellow;
-  min-height: 400px;
-  max-width: 400px;
-  border: none;
-}
-
-.panel-heading {
-  border: transparent;
-}
-h4{
-  text-decoration: none;
-}
-
-h4 > a:hover {
-  text-decoration: none;
-}
-
-a {
-
-}
-
-.poly2 {
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
-  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
-}
-
-.panel-default {
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
-  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
-}
-
-.panel {
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
-  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
-}
-
-.panel-heading { /**** #HEADINGONE ****/
-  background-image: none;
-  /*border-radius: 1px grey lime;*/
-  display: block;
-  background-color: lime;
-}
-
-.panel-title { /**** HEADER TITLE ****/
-  background-image: none;
-  border: solid lime;
-  display: block;
-  background-color: purple;
-  color: white;
-}
-
-.panel-default { /**** SHAPE BACKGROUND COLOR 1 ****/
-  background-image: none;
-  /*border-radius: 1px grey lime;*/
-  display: block;
-  background-color: blue;
-}
-
-#headingOne { /**** HEADER BORDER ****/
-  background-image: none;
-  border: 2px solid red;
-  display: block;
-  background: none;
-  position: absolute;
-  top: 157px;
-  left: 50px;
-}
-
-.panel-body { /****** OVERLAY DROPDOWN BODY ******/
-  background-color: yellow;
-  min-height: 700px;
-  max-width: 400px;
-  border: transparent;
-  padding-top: 15px;
-  position: absolute;
-  top: 200px;
-}
-
-
-
-
-
-
-
-
-
-
-
-/****************
-The below css is pretty close to what were looking for
-****************/
-
-/*.poly2, {
-  background-image: transparent;
-  box-shadow: none;
-  color: red;
-  border-radius: none;
-
-}
-
-.poly2, .panel {
-  background-color: red;
-  min-height: 600px;
-  max-width: 400px;
-}
-
-
-.poly2, .panel {
+/*#accordion {
   -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
   clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
 }*/
+
+.poly2 {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 90%, 0% 75%, 0 0);
+  border: 5px solid white;
+}
+
+.poly2 {
+  min-height: 600px;
+  width: 400px;
+  position: absolute;
+  top: 0;
+  right: 90px;
+  background-color: black;
+  /*border: 5px solid white;*/
+}
+
+#accordion, .panel {
+  position: absolute;
+  top: 100px;
+  width: 400px;
+  border: transparent;
+}
