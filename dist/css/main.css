@@ -38,6 +38,58 @@ h2 {
 
 h2 > span:first-child,
 span:last-child {
-  border-top: 2px solid #feb440;
-  border-bottom: 2px solid #feb440;
+  border-top: 2px solid #fbe440;
+  border-bottom: 2px solid #fbe440;
   margin: 0 10px; }
+
+button,
+.btn,
+.btn-lg,
+.btn-block,
+a {
+  background: none;
+  width: 80%;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  font-size: 100px;
+  margin-top: -15px;
+  border-radius: 1px;
+  border: none;
+  color: #fbe440; }
+
+.break1,
+.break2 {
+  width: 80%;
+  border: 1.5px solid #fbe440;
+  position: absolute;
+  right: 10%; }
+
+.break1 {
+  top: 325px; }
+
+.break2 {
+  top: 500px; }
+
+.date > h2 {
+  position: absolute;
+  top: 350px;
+  right: 245px;
+  font-size: 36px;
+  border-right: 2px solid #fbe440;
+  padding: 25px; }
+
+.address > h2 {
+  position: absolute;
+  top: 366px;
+  right: 40px;
+  font-size: 29px; }
+
+.food {
+  position: absolute;
+  top: 540px;
+  right: 237px;
+  border-right: 2px solid #fbe440;
+  padding-right: 40px;
+  padding-bottom: 45px;
+  padding-top: 0px; }
