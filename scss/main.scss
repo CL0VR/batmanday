@@ -1,0 +1,56 @@
+
+
+// RIBBON STYLING //
+
+.batman {
+  background: url(../../img/batkid.jpg) no-repeat center center fixed;
+  background-position: 0% 75%;
+  background-color: #fbe440;
+  background-size: contain; }
+
+.poly1,
+.poly2,
+.poly3 {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 85%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 85%, 0% 75%, 0 0);
+  position: absolute;
+  top: 0;
+  opacity: .92;
+}
+
+.poly1 {
+  min-height: 700px;
+  width: 400px;
+  right: 20px;
+  background-color: black;
+}
+
+.poly2 {
+  min-height: 690px;
+  width: 380px;
+  right: 10px;
+  background-color: #fbe440; }
+
+.poly3 {
+  min-height: 688px;
+  width: 375px;
+  right: 2px;
+  background-color: black; }
+
+// FONT STYLES //
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #fbe440;
+
+h1,
+h2 {
+  color: $primary-color;
+}
+
+h2 > span:first-child,
+span:last-child {
+  border-top: 2px solid #feb440;
+  border-bottom: 2px solid #feb440;
+  margin: 0 10px;
+  font-size: 32px;
+}
