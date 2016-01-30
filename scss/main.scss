@@ -19,21 +19,21 @@
 }
 
 .poly1 {
-  min-height: 700px;
-  width: 400px;
+  min-height: 900px;
+  width: 500px;
   right: 20px;
   background-color: black;
 }
 
 .poly2 {
-  min-height: 690px;
-  width: 380px;
+  min-height: 890px;
+  width: 480px;
   right: 10px;
   background-color: #fbe440; }
 
 .poly3 {
-  min-height: 688px;
-  width: 375px;
+  min-height: 888px;
+  width: 475px;
   right: 2px;
   background-color: black; }
 
@@ -45,6 +45,7 @@ $primary-color: #fbe440;
 h1,
 h2 {
   color: $primary-color;
+  font-size: 42px;
 }
 
 h2 > span:first-child,
@@ -52,5 +53,5 @@ span:last-child {
   border-top: 2px solid #feb440;
   border-bottom: 2px solid #feb440;
   margin: 0 10px;
-  font-size: 32px;
+  // font-size: 32px;
 }
