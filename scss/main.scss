@@ -72,6 +72,10 @@ a {
     color: $primary-color;
 }
 
+h2 > small {
+  color: $primary-color;
+}
+
 // BREAK LINES //
 
 .break1,
@@ -90,21 +94,36 @@ a {
   top: 500px;
 }
 
+
+// INFO PANEL //
+
+.date > h2,
+.address > h2,
+.food,
+.activity {
+  position: absolute;
+  color: $primary-color;
+}
+
+// PANEL ROW 1 //
+
+.date > h2,
+.food {
+  right: 237px;
+  border-right: 2px solid #fbe440;
+}
+
 // DATE //
 
 .date > h2 {
-  position: absolute;
   top: 350px;
-  right: 245px;
   font-size: 36px;
-  border-right: 2px solid #fbe440;
   padding: 25px;
 }
 
 // ADDRESS //
 
 .address > h2 {
-  position: absolute;
   top: 366px;
   right: 40px;
   font-size: 29px;
@@ -113,11 +132,15 @@ a {
 // FOOD //
 
 .food {
-  position: absolute;
     top: 540px;
-    right: 237px;
-    border-right: 2px solid #fbe440;
     padding-right: 40px;
     padding-bottom: 45px;
     padding-top: 0px;
+}
+
+// ACTIVITIES //
+
+.activity {
+  top: 540px;
+  right: 35px;
 }

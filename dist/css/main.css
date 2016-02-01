@@ -58,6 +58,9 @@ a {
   border: none;
   color: #fbe440; }
 
+h2 > small {
+  color: #fbe440; }
+
 .break1,
 .break2 {
   width: 80%;
@@ -71,25 +74,34 @@ a {
 .break2 {
   top: 500px; }
 
-.date > h2 {
+.date > h2,
+.address > h2,
+.food,
+.activity {
   position: absolute;
+  color: #fbe440; }
+
+.date > h2,
+.food {
+  right: 237px;
+  border-right: 2px solid #fbe440; }
+
+.date > h2 {
   top: 350px;
-  right: 245px;
   font-size: 36px;
-  border-right: 2px solid #fbe440;
   padding: 25px; }
 
 .address > h2 {
-  position: absolute;
   top: 366px;
   right: 40px;
   font-size: 29px; }
 
 .food {
-  position: absolute;
   top: 540px;
-  right: 237px;
-  border-right: 2px solid #fbe440;
   padding-right: 40px;
   padding-bottom: 45px;
   padding-top: 0px; }
+
+.activity {
+  top: 540px;
+  right: 35px; }
