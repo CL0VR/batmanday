@@ -1,0 +1,144 @@
+// RIBBON STYLING //
+
+.batman {
+  background: url(../../img/batkid.jpg) no-repeat center center fixed;
+  background-position: 0% 75%;
+  background-color: #fbe440;
+  background-size: contain; }
+
+.poly1,
+.poly2,
+.poly3 {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 85%, 0% 75%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 85%, 0% 75%, 0 0);
+  position: absolute;
+  top: 0;
+  opacity: .92;
+}
+
+.poly1 {
+  min-height: 900px;
+  width: 500px;
+  right: 20px;
+  background-color: black;
+}
+
+.poly2 {
+  min-height: 890px;
+  width: 480px;
+  right: 10px;
+  background-color: #fbe440; }
+
+.poly3 {
+  min-height: 888px;
+  width: 475px;
+  right: 2px;
+  background-color: black; }
+
+// FONT STYLES //
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #fbe440;
+
+h1,
+h2 {
+  color: $primary-color;
+  font-size: 42px;
+}
+
+h2 > span:first-child,
+span:last-child {
+  border-top: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
+  margin: 0 10px;
+}
+
+button,
+.btn,
+.btn-lg,
+.btn-block,
+a {
+    background: none;
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    font-size: 100px;
+    margin-top: -15px;
+    border-radius: 1px;
+    border: none;
+    color: $primary-color;
+}
+
+h2 > small {
+  color: $primary-color;
+}
+
+// BREAK LINES //
+
+.break1,
+.break2 {
+  width: 80%;
+  border: 1.5px solid $primary-color;
+  position: absolute;
+  right: 10%;
+}
+
+.break1 {
+  top: 325px;
+}
+
+.break2 {
+  top: 500px;
+}
+
+
+// INFO PANEL //
+
+.date > h2,
+.address > h2,
+.food,
+.activity {
+  position: absolute;
+  color: $primary-color;
+}
+
+// PANEL ROW 1 //
+
+.date > h2,
+.food {
+  right: 237px;
+  border-right: 2px solid #fbe440;
+}
+
+// DATE //
+
+.date > h2 {
+  top: 350px;
+  font-size: 36px;
+  padding: 25px;
+}
+
+// ADDRESS //
+
+.address > h2 {
+  top: 366px;
+  right: 40px;
+  font-size: 29px;
+}
+
+// FOOD //
+
+.food {
+    top: 540px;
+    padding-right: 40px;
+    padding-bottom: 45px;
+    padding-top: 0px;
+}
+
+// ACTIVITIES //
+
+.activity {
+  top: 540px;
+  right: 35px;
+}
